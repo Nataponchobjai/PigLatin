@@ -1,4 +1,4 @@
-/* ตั้งค่าเริ่มต้นของหน้าเว็บ */
+
 body, h1, p {
     margin: 0;
     padding: 0;
@@ -11,7 +11,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    flex-direction: column; /* ให้เนื้อหาเรียงตามแนวตั้ง */
+    flex-direction: column; 
 }
 
 .whole-container {
@@ -22,12 +22,12 @@ body {
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
     box-sizing: border-box;
-    text-align: center; /* ให้เนื้อหาอยู่ตรงกลางของ container */
+    text-align: center; 
 }
 
 .header {
     display: flex;
-    justify-content: center; /* ให้อยู่ตรงกลางแนวนอน */
+    justify-content: center; 
     align-items: center;
     margin-bottom: 20px;
 }
@@ -53,7 +53,7 @@ body {
 
 .button-container {
     display: flex;
-    justify-content: center; /* ให้อยู่ตรงกลางแนวนอน */
+    justify-content: center; 
     align-items: center;
     margin-bottom: 20px;
 }
@@ -66,18 +66,18 @@ body {
 }
 
 .pig-button:hover {
-    transform: scale(1.1);
+    transform: scale(2.1);
 }
 
 .button, .reset {
     padding: 10px 20px;
     border: none;
     border-radius: 4px;
-    background-color: #f47c7c; /* สีแดง */
+    background-color: #f47c7c; 
     color: white;
     cursor: pointer;
     transition: background-color 0.3s;
-    margin: 0 10px; /* เพิ่มระยะห่างระหว่างปุ่ม */
+    margin: 0 10px; 
 }
 
 .button:hover, .reset:hover {
@@ -90,5 +90,5 @@ body {
     border: 1px solid #ccc;
     border-radius: 4px;
     background-color: #f9f9f9;
-    width: 100%; /* ให้กว้างเต็ม container */
+    width: 100%; 
 }
